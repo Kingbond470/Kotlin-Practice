@@ -1,0 +1,20 @@
+fun main(){
+
+    print("Hello, Meesho")
+
+}
+
+Hello, Meesho
+
+In kotlin, the entryPoint is main() function. 
+- Before Kotlin V1.3, you need to specify the parameters inside main() function
+- Semicolon is optional 
+- If you don't give return type then it will return nothing
+
+Same main() function before V1.3, it was important to pass the parameter as Array<String>
+
+fun main(arr : Array<String>){
+  
+    print("Hello, Meesho")
+    
+}
